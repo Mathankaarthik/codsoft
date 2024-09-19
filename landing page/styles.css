@@ -1,0 +1,163 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.logo {
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+}
+.nav-links {
+    list-style: none;
+}
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.hero {
+    background: url('image5.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.cta-button {
+    padding: 12px 25px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.cta-button:hover {
+    background-color: #e55d00;
+}
+.about-section {
+    padding: 80px 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.about-section img {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.about-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.services-section {
+    padding: 80px 50px;
+    text-align: center;
+    background-color: #fff;
+}
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.service-card {
+    width: 30%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.service-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.service-card h3 {
+    margin-bottom: 10px;
+}
+.service-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.contact-section {
+    padding: 80px 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contact-section input, .contact-section textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-section button {
+    padding: 15px 30px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.contact-section button:hover {
+    background-color: #e55d00;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
